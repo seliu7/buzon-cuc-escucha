@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Buzón CUC Escucha</title>
+    <style>
+        /* Estilo inicial: Fondo blanco como pide el punto 3 */
+        body { font-family: Arial, sans-serif; padding: 20px; background-color: #ffffff; }
+        form { max-width: 450px; display: flex; flex-direction: column; gap: 10px; }
+        input, textarea, button { padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
+        button { background-color: #f44336; color: white; cursor: pointer; border: none; }
+    </style>
+</head>
+<body>
+    <h1>Buzón CUC Escucha</h1>
+    <p>Ayúdanos a mejorar nuestra facultad.</p>
+    
+    <form>
+        <input type="text" placeholder="Nombre completo" value="Sebastian Eliu Herrera De La Hoz" required>
+        <input type="email" placeholder="Correo institucional" value="sherrera32@cuc.edu.co" required>
+        <input type="text" placeholder="Programa académico" value="Ingeniería de Sistemas" required>
+        <textarea placeholder="Deja tu sugerencia aquí (clases, bienestar, etc.)" rows="4" required></textarea>
+        <button type="submit">Enviar Sugerencia</button>
+    </form>
+</body>
+</html>
